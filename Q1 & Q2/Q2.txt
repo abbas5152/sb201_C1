@@ -1,0 +1,76 @@
+Question 2:
+
+
+● Explain difference between JPA and Hibernate:
+
+->Here Hibernate is an ORM software.There are so many companies making ORM softwares.
+
+->Every company using their own API to create there ORM software.
+
+->so if any user want to switch from one software to another software they can't
+because API is different for all this software.
+
+->To overcome this problem oracle corporation devloped JPA api.
+
+->so every ORM software have compoulsorly use JPA api in their software and they can also use 
+their own api too.
+
+->So basically JPA is specification and Hibernate is one of the famous implementation.
+
+->JPA api belongs to "javax.persistence" package and hibernate api belongs to
+ "org.hibernate " package.
+
+
+● Explain about the Layered Architecture of a Java Based Business application:
+
+In any Business Application there is three layers 
+
+1) Data Access layer
+2) Business Logic layer
+3) Presentation layer
+
+
+1)Data Access layer:
+
+->In this layer we have to create java classes and interfaces to perform CRUD operation.
+
+->CRUD means create delete update opeartions.
+
+->we have to performs this CRUD operation using this methods.
+
+->In JDBC and DAO pattern are example of this layer.In this we have to pass sql
+query to perform CRUD operation.
+
+->ORM software is also example of this using ORM software example Hibernate
+we can perfome CRUD operation with database.
+
+
+2)Business Logic layer:
+
+-> In this layer we have to implement Business services in Programming Logic.
+
+->For this we have to write java classes and interfaces.By using this methods
+we can perform business logic.
+
+->In which this business logic is perfroms it's called Business logic layer.
+
+->for Example In jiomart website if we want to add any product in our cart we have to click 
+cart button.so that product added in cart.This is a part of business logic
+
+3) Presentation Layer:
+
+->This is layer is related with end user.
+
+->For example in JIOMART if we search in search box "rice" the photos and prices 
+will display on screen.
+
+->That part of the application is called presentation layer.
+
+->Using Frontend technlogy like React we can make it more intercating with user.
+
+
+3)Presentation Layer:
+As in the name mentioned Presentation it means there is some classes in java that shows the 
+input screen and also output screen.It is interacting with the end user.
+ 
+
